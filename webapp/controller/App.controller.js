@@ -5,7 +5,7 @@ sap.ui.define([
     "sap/ui/model/resource/ResourceModel"
 ], (Controller, MessageToast, JSONModel, ResourceModel) => {
     "use strict"
-    return Controller.extend("sap.ui.demo.walkthrough", {
+    return Controller.extend("sap.ui.demo.walkthrough.controller.App", {
         onInit : function () {
            // set data model on view
            var oData = {
